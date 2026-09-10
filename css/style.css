@@ -66,6 +66,19 @@ img{max-width:100%;height:auto;display:block}
 .card p{margin:0;color:var(--ink-soft);font-size:15px}
 .card .meta{margin-top:auto;padding-top:10px;font-size:12.5px;color:var(--ink-soft)}
 
+/* "Now in Japan" — dated, news-driven pieces */
+.tag.now{color:var(--indigo)}
+.now-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-bottom:64px}
+.now-item{border-left:3px solid var(--indigo);padding:4px 0 4px 18px;display:flex;flex-direction:column;gap:6px}
+.now-item .date{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--indigo)}
+.now-item h2{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:22px;line-height:1.3;margin:0;text-wrap:balance}
+.now-item h2 a{color:var(--ink)}
+.now-item p{margin:0;color:var(--ink-soft);font-size:15px}
+.whats-new{background:var(--indigo-soft);border-radius:6px;padding:16px 20px;margin:28px 0;display:flex;flex-direction:column;gap:4px}
+.whats-new .label{font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--indigo)}
+.whats-new a{font-family:"Newsreader",Georgia,serif;font-size:19px;color:var(--ink)}
+.whats-new p{margin:0;font-size:14px;color:var(--ink-soft)}
+
 /* about strip */
 .about-strip{background:var(--indigo-soft);border-radius:6px;padding:28px 30px;margin-bottom:64px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
 .about-strip h2{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:24px;margin:0 0 6px}
