@@ -1,0 +1,13 @@
+# 改行コードの統一
+# Windows と Mac を行き来しても「中身は同じなのに全部変更された」と出ないようにする。
+# リポジトリの中は LF で統一し、各PCの作業中は自動で合わせる。
+* text=auto eol=lf
+
+# 画像など（変換してはいけないもの）
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
